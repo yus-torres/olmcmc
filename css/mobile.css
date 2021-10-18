@@ -1,0 +1,89 @@
+/* 320  */
+@media (min-width: 320px) {	
+	.for-mobile { display: block; }
+	.for-screen { display: none; }
+	
+	h1 { font-size: 30px; line-height: 38px; margin-bottom: 20px; }
+	h2 { font-size: 22px; line-height: 30px; margin-bottom: 20px; }
+	h3 { font-size: 22px; line-height: 30px; margin-bottom: 10px; }
+	h4 { font-size: 14px; line-height: 22px; margin-bottom: 10px; }
+	h5 { font-size: 14px; line-height: 22px; }
+	p  { font-size: 14px; line-height: 22px; margin-bottom: 10px; }
+	li { font-size: 14px; line-height: 22px; }
+	
+	.slider-main { padding: 140px 0 0 0; }	
+	.slider-main #slider-main .carousel-item { background-size: cover; height: calc(75vh - 180px); }
+	.slider-main #slider-main .carousel-content { text-align: center; }
+	.slider-main #slider-main .carousel-content h1 { font-size: 48px; line-height: 56px; }
+	.slider-main #slider-main .carousel-content p { font-size: 16px; line-height: 24px; }
+	
+	section { padding: 20px; }
+	section.find-a-doctor .form-control { margin-bottom: 15px; }
+	section.find-a-doctor .widget-title { padding: 20px; margin-bottom: 15px; }
+	
+	.services .tab-menu li { margin-right: 15px; width: 45%; }
+	
+	footer .copyright p { text-align: center; margin-bottom: 20px; }
+	footer .copyright .list-social { text-align: center; }
+}
+
+/* 480  */
+@media (min-width: 480px) {
+}
+
+/* 560  */
+@media (min-width: 560px) {
+}
+
+/* 768 */
+@media (min-width: 768px) {	
+	.for-mobile { display: none; }
+	.for-screen { display: block; }
+	
+	h1 { font-size: 48px; line-height: 56px; margin-bottom: 30px; }
+	h2 { font-size: 40px; line-height: 48px; margin-bottom: 30px; }
+	h3 { font-size: 32px; line-height: 40px; margin-bottom: 20px; }
+	h4 { font-size: 24px; line-height: 32px; margin-bottom: 20px; }
+	h5 { font-size: 18px; line-height: 26px; }
+	p  { font-size: 16px; line-height: 24px; margin-bottom: 20px; }
+	li { font-size: 16px; line-height: 24px; }
+	
+	.slider-main { padding-top: 180px; }
+	.slider-main #slider-main .carousel-item { height: calc(100vh - 180px); }
+	.slider-main #slider-main .carousel-content { text-align: left; }
+	.slider-main #slider-main .carousel-content h1 { font-size: 72px; line-height: 72px; }
+	.slider-main #slider-main .carousel-content p { font-size: 20px; line-height: 36px; }
+	
+	section { padding: 100px 20px; }
+	section.find-a-doctor .form-control { margin-bottom: 0; }
+	section.find-a-doctor .widget-title { padding: 40px 20px; margin-bottom: 0; }
+	
+	.services .tab-menu li { margin-right: 30px; width: 18%; }
+	
+	footer .copyright p { text-align: left; margin-bottom: 0; }
+	footer .copyright .list-social { text-align: right; }
+}
+
+/* 960 */
+@media (min-width: 960px) {
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+}
+
+/* 1100 */
+@media (min-width: 1100px) {
+}
+
+/* 1260 */
+@media (min-width: 1260px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* Max: 768  */
+@media (max-width: 768px) {		
+}

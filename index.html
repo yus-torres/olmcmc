@@ -1,1052 +1,1222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>OLMCMC</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/overwrites.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	<title>Our Lady Of Mt. Carmel Medical Center</title>
+	<link rel="stylesheet" href="css/imports.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mobile.css">
 
-    <!-- Fixing Internet Explorer -->
-    <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="js/html5shiv.js"></script>
-    <![endif] -->    
+	<!-- Fixing Internet Explorer -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="js/html5shiv.js"></script>
+	<![endif] -->
 </head>
+
 <body>
 	<!-- -->
-	<div class="boxed_wrapper">
-		<!-- Start Preloader -->
-		<div class="preloader"></div>
-		<!-- End Preloader --> 
+	<div id="top"></div>
+	
+	<!-- .se-pre-con -->
+	<div class="se-pre-con">
+		<img src="img/preloader.gif" alt="" />
+	</div>
 
-		<!-- Start header area --> 
-		<section class="header-area for-screen">
+	<!-- .utilities -->
+	<div class="utilities">
+		<!-- -->
+		<div>
+			<a href="#top" class="btn" data-toggle="tooltip" data-placement="left" title="Back to Top"><i class="fas fa-angle-up"></i></a>
+		</div>
+	</div>
+	
+	<!-- header -->
+	<header class="for-screen">
+		<!-- -->
+		<div class="header-top">
+			<!-- .container -->
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-4">
-						<div class="logo">
-							<a href="index.html">
-								<img src="img/resources/logo.png" alt="Awesome Logo">
-							</a>
-						</div>
+				<!-- .row -->
+				<div class="row justify-content-between align-items-center">
+					<!-- .col -->
+					<div class="col-md-4">
+						<a href="index.html"><img src="img/logo.png" class="img-fluid" alt="Our Lady Of Mt. Carmel Medical Center" /></a>
 					</div>
-					<div class="col-lg-8 col-md-8">
-						<div class="header-right">
-							<ul>
-								<li>
-									<div class="icon-holder">
-										<span class="flaticon-technology"></span>
-									</div>
-									<div class="text-holder">
-										<h4>Hotline</h4>
-										<span>(045) 435-2421, (045) 435-2420</span>
-									</div>
-								</li>
-								<li>
-									<div class="icon-holder">
-										<span class="flaticon-technology"></span>
-									</div>
-									<div class="text-holder">
-										<h4>Contact Number</h4>
-										<span>(045) 860-1265, (045) 860-0993</span>
-									</div>
-								</li>
-							</ul>
-							<div class="search-button pull-right">
-								<div class="toggle-search">
-									<button><i class="fa fa-search" aria-hidden="true"></i></button>    
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>   
-		<!-- End header area -->
-		
-		<!-- Start header area --> 
-		<section class="header-area for-mobile">
-			<div class="container">
-				<div class="row">
-					<div class="logo">
-						<a href="index.html">
-							<img src="img/resources/logo.png" alt="Awesome Logo">
-						</a>
-					</div>
-					<div class="menu">
-						<a href="index.html">
-							<i class="fa fa-bars" aria-hidden="true"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>   
-		<!-- End header area -->  
 
-		<!-- Start header-search  area -->
-		<section class="header-search">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="search-form pull-right">
-							<form action="#">
-								<div class="search">
-									<input type="search" name="search" value="" placeholder="Search">
-									<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End header-search  area -->        
-
-		<!-- Start mainmenu area -->
-		<section class="mainmenu-area stricky for-screen">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<!-- Start mainmenu -->
-						<nav class="main-menu">
-							<div class="collapse show navbar-collapse">
-								<ul class="navigation clearfix">
-									<li class="current"><a href="index.html">Home</a></li>
-									<li class="dropdown"><a href="#">About</a>
-										<ul>
-											<li><a href="#">History</a></li>
-											<li><a href="#">Doctors</a></li>
-											<li><a href="#">Gallery</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#">Services</a>
-										<ul>
-											<li><a href="#">Emergency Department</a></li>
-											<li><a href="#">Operating Room Department</a></li>
-											<li><a href="#">Labor and Delivery Room Department</a></li>
-											<li><a href="#">Neonatal Intensive Care Unit</a></li>
-											<li><a href="#">Laboratory Department</a></li>
-											<li><a href="#">Chemotherapy Unit</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#">Specializations</a>
-										<ul>
-											<li><a href="#">Orthopedics</a></li>
-											<li><a href="#">Nephrology</a></li>
-											<li><a href="#">Neurology</a></li>
-											<li><a href="#">Rheumatology</a></li>
-											<li><a href="#">Pulmonology</a></li>
-											<li><a href="#">Psychiatry</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#">Patients</a>
-										<ul>
-											<li><a href="#">Guide</a></li>
-											<li><a href="#">Result</a></li>
-											<li><a href="#">Testimonials</a></li>
-										</ul>
-									</li>
-									<li><a href="#">News</a></li>
-									<li><a href="#">Careers</a></li>
-									<li><a href="#">Contact</a></li>
-								</ul>
-							</div>
-						</nav>
-						<!-- End mainmenu -->
-						
-						<!-- Start mainmenu right box -->
-						<div class="mainmenu-right-box pull-right">
-							<div class="consultation-button">
-								<a href="#">Online Results</a>    
-							</div>
-						</div>
-						<!-- End mainmenu right box -->    
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End mainmenu area -->
-
-		<!-- Start rev slider wrapper -->     
-		<section class="rev_slider_wrapper">
-			<div id="slider1" class="rev_slider"  data-version="5.0">
-				<ul>
-					<!-- Slide 1 -->
-					<li data-transition="rs-20">
-						<img src="img/slides/1.jpg"  alt="" width="1920" height="700" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
-
-						<div class="tp-caption  tp-resizeme" 
-							data-x="left" data-hoffset="0" 
-							data-y="top" data-voffset="220" 
-							data-transform_idle="o:1;"         
-							data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
-							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
-							data-splitin="none" 
-							data-splitout="none"
-							data-responsive_offset="on"
-							data-start="1500">
-							<div class="slide-content-box mar-lft">
-								<h1>Experience<br />Personal Care</h1>
-								<p>Neque porro quisquam est qui dolorem ipsum quia<br />dolor sit amet, consectetur, adipisci velit.</p>
-								<div class="button">
-									<a class="#" href="#">Read More</a>
-									<a class="btn-style-two" href="#">Departments</a>
-								</div>  
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<!-- End rev slider wrapper -->
-
-		<!-- Start call to action area -->
-		<section class="callto-action-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="inner-content">
-							<div class="title-box text-center">
-								<h2>Find a Doctor</h2>    
-							</div>
-							<div class="form-holder clearfix">
-								<form id="appointment" class="clearfix" name="appointment-form" action="http://st.ourhtmldemo.com/new/Hospitals/inc/sendmail.php" method="post">
-									<div class="row">
-										<div class="col-md-3">
-											<div class="input-box">
-												<input type="text" name="form_name" value="" placeholder="First Name" required="">
-											</div>
-										</div>
-										<div class="col-md-3">
-											<div class="input-box">
-												<input type="text" name="form_name" value="" placeholder="Last Name" required="">
-											</div>
-										</div>
-										<div class="col-md-3">
-											<div class="input-box">
-												<select class="selectmenu">
-													<option selected="selected">Specialization</option>
-													<option>First Name</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-md-3">
-											<div class="input-box">
-												<button class="thm-btn bgclr-1" type="submit">
-													<i class="fa fa-search" aria-hidden="true"></i>
-												</button>
-											</div>
-										</div>
-									</div>
-								</form>      
-							</div> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End call to action area -->
-
-		<!-- Start Medical Departments area -->
-		<section class="medical-departments-area">
-			<div class="container">
-				<div class="sec-title">
-					<h1>Medical Departments</h1>
-					<span class="border"></span>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="medical-departments-carousel">
-							<!-- Start single item -->
-							<div class="single-item text-center">
-								<div class="iocn-holder">
-									<i class="fal fa-head-side-brain"></i>
-								</div>
-								<div class="text-holder">
-									<h3>Pyschiatry</h3>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
-								</div>
-								<a class="readmore" href="#">Read More</a>
-							</div>
-							<!-- End single item -->
-
-							<!-- Start single item -->
-							<div class="single-item text-center">
-								<div class="iocn-holder">
-									<i class="fal fa-lungs"></i>    
-								</div>
-								<div class="text-holder">
-									<h3>Pulmonology</h3>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
-								</div>
-								<a class="readmore" href="#">Read More</a>
-							</div>
-							<!-- End single item -->
-
-							<!-- Start single item -->
-							<div class="single-item text-center">
-								<div class="iocn-holder">
-									<i class="fal fa-kidneys"></i>
-								</div>
-								<div class="text-holder">
-									<h3>Nephrology</h3>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
-								</div>
-								<a class="readmore" href="#">Read More</a>
-							</div>
-							<!-- End single item -->
-
-							<!-- Start single item -->
-							<div class="single-item text-center">
-								<div class="iocn-holder">
-									<i class="fal fa-brain"></i>
-								</div>
-								<div class="text-holder">
-									<h3>Neurology</h3>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
-								</div>
-								<a class="readmore" href="#">Read More</a>
-							</div>
-							<!-- End single item -->
-						</div>
-					</div>    
-				</div>
-			</div>
-		</section>
-		<!-- End Medical Departments area --> 
-
-		<!-- Start service area -->
-		<section class="service-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="sec-title">
-							<h1>Our Best Services</h1>
-							<span class="border"></span>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="text-holder">
-							<!-- Start tab box -->
-							<div class="tab-box">
-								<div class="tab-content">
-									<!-- Start single tab pane -->
-									<div class="tab-pane" id="emergency">
-										<div class="inner-content">
-											<div class="row justify-content-around">
-												<div class="col-md-5">
-													<div class="img-box">
-														<img src="img/services/service-1.jpg" class="img-fluid" alt="Awesome Image">
-													</div>    
-												</div> 
-												<div class="col-md-6">
-													<div class="text-box">
-														<h3>Emergency Department</h3>
-														<p>The emergency department is pleased to serve you. The ER department provides initial treatment for a broad spectrum of illnesses and injuries, some of which may be life-threatening and require immediate attention. The OLMCMC-ERD operates for 24 hours a daily with competent and reliable doctors and nurses with 24 hour ambulance service. The ER team with physicians, nurses, and other healthcare professionals provides patients care, monitor health conditions, plan long-term care needs, administer medicine, use medical equipment, perform minor medical operations, advised patients and their families on illness, care and continued care after a hospital stay.</p>
-														<a class="thm-btn" href="#">Read More</a>
-													</div>    
-												</div>   
-											</div>
-										</div>  
-									</div>
-									<!-- End single tab pane -->
-									
-									<!-- Start single tab pane -->
-									<div class="tab-pane active" id="neonatal">
-										<div class="inner-content">
-											<div class="row justify-content-around">
-												<div class="col-md-5">
-													<div class="img-box">
-														<img src="img/services/service-2.jpg" class="img-fluid" alt="Awesome Image">
-													</div>    
-												</div> 
-												<div class="col-md-6">
-													<div class="text-box">
-														<h3>Neonatal Intensive Care Unit</h3>
-														<p>The Neonatal Intensive Care Unit is high specialized care, and the most advanced pediatric treatment, in a gentle nurturing environment and provides 24-hour service. It accepts 27 weeks gestation or less to tern infants requiring Level II and Level III specialized care. The NICU family provides a family-centered approach to care; encompassing the parents and sick infants as a single unit. Thus including the family in all decision making and kept well informed and have complete understanding of all patient care activities and procedures. Other disciplines are involved in the care of the sick neonate including medical staff, respiratory therapy, pharmacy, radiology, infection control and physical therapy.</p>
-														<a class="thm-btn" href="#">Read More</a>
-													</div>    
-												</div>   
-											</div>
-										</div>  
-									</div>
-									<!-- End single tab pane -->
-									
-									<!-- Start single tab pane -->
-									<div class="tab-pane" id="diagnostic">
-										<div class="inner-content">
-											<div class="row justify-content-around">
-												<div class="col-md-5">
-													<div class="img-box">
-														<img src="img/services/service-3.jpg" class="img-fluid" alt="Awesome Image">
-													</div>    
-												</div> 
-												<div class="col-md-6">
-													<div class="text-box">
-														<h3>Diagnostic and Imaging Department</h3>
-														<p>The Diagnostic and Imaging Department in Our Lady of Mt. Carmel Medical Center has been serving the local community. It utilizes most technologically advanced diagnostic and imaging equipment in the area to better serve our patients. Our compassionate and friendly staff are fully trained with certified technologists, board certified radiologists, and board certified nuclear cardiologist.</p>
-														<a class="thm-btn" href="#">Read More</a>
-													</div>    
-												</div>   
-											</div>
-										</div>     
-									</div>
-									<!-- End single tab pane -->
-									
-									<!-- Start single tab pane -->
-									<div class="tab-pane" id="hemodialysis">
-										<div class="inner-content">
-											<div class="row justify-content-around">
-												<div class="col-md-5">
-													<div class="img-box">
-														<img src="img/services/service-4.jpg" class="img-fluid" alt="Awesome Image">
-													</div>    
-												</div> 
-												<div class="col-md-6">
-													<div class="text-box">
-														<h3>Hemodialysis Center</h3>
-														<p>The hemodialysis unit of Our Lady of Mt. Carmel Medical Center provides quality renal replacement therapy to out-patients and/or in-patients with acute and chronic disease. The department has thirty (30) hemodialysis machines. It is located at the upper ground and second floor (hemodialysis extension) of the medical center. We serve our patients six (6) days a week from 5 am to 10 pm for out-patients.</p>
-														<a class="thm-btn" href="#">Read More</a>
-													</div>    
-												</div>    
-											</div>
-										</div>     
-									</div>
-									<!-- End single tab pane -->
-									
-									<!-- Start single tab pane -->
-									<div class="tab-pane" id="operating">
-										<div class="inner-content">
-											<div class="row justify-content-around">
-												<div class="col-md-5">
-													<div class="img-box">
-														<img src="img/services/service-5.jpg" class="img-fluid" alt="Awesome Image">
-													</div>    
-												</div> 
-												<div class="col-md-6">
-													<div class="text-box">
-														<h3>Operating Room Department</h3>
-														<p>The operating room (O.R.) is a facility within a hospital specializing in different surgical procedures. Patients are being treated inside O.R. through surgical operations under anesthesia. Asides from the surgical procedures OR provides special care which includes IV fluid administration, medications, electro-cautery machine. Under O.R., the hospital has a Recovery Room (R.R.), known as Post Anesthesia Care Unit (PACU). It houses post – operative patients for a minimum of two hours or until the time the anesthesia had wear off. Moreover, there is a Central Supply Room (CSR) inside the theatre, where all the medicines and supplies are readily available once needed.</p>
-														<a class="thm-btn" href="#">Read More</a>
-													</div>    
-												</div>    
-											</div>
-										</div>     
-									</div>
-									<!-- End single tab pane -->
-								</div>
-								
-								<ul class="nav nav-tabs tab-menu">
-									<li>
-										<a href="#emergency" data-toggle="tab">
-											<div class="img-holder">
-												<img src="img/services/service-1.jpg" alt="Awesome Image">
-												<div class="overlay-style-one">
-													<div class="box">
-														<div class="content">
-															<div class="iocn-holder">
-																<span class="flaticon-plus-symbol"></span>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</a>
-										<h3>Emergency Department</h3>
-									</li>
-									<li class="active">
-										<a href="#neonatal" data-toggle="tab">
-											<div class="img-holder">
-												<img src="img/services/service-2.jpg" alt="Awesome Image">
-												<div class="overlay-style-one">
-													<div class="box">
-														<div class="content">
-															<div class="iocn-holder">
-																<span class="flaticon-plus-symbol"></span>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>    
-										</a>
-										<h3>Neonatal Intensive Care Unit</h3>
-									</li>
-									<li>
-										<a href="#diagnostic" data-toggle="tab">
-											<div class="img-holder">
-												<img src="img/services/service-3.jpg" alt="Awesome Image">
-												<div class="overlay-style-one">
-													<div class="box">
-														<div class="content">
-															<div class="iocn-holder">
-																<span class="flaticon-plus-symbol"></span>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</a>
-										<h3>Diagnostic and Imaging Department</h3>
-									</li>
-									<li>
-										<a href="#hemodialysis" data-toggle="tab">
-											<div class="img-holder">
-												<img src="img/services/service-4.jpg" alt="Awesome Image">
-												<div class="overlay-style-one">
-													<div class="box">
-														<div class="content">
-															<div class="iocn-holder">
-																<span class="flaticon-plus-symbol"></span>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</a>
-										<h3>Hemodialysis Center</h3>
-									</li>
-									<li>
-										<a href="#operating" data-toggle="tab">
-											<div class="img-holder">
-												<img src="img/services/service-5.jpg" alt="Awesome Image">
-												<div class="overlay-style-one">
-													<div class="box">
-														<div class="content">
-															<div class="iocn-holder">
-																<span class="flaticon-plus-symbol"></span>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</a>
-										<h3>Operating Room Department</h3>
-									</li>
-								</ul> 
-							</div>
-							<!-- End tab box --> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>  
-		<!-- End service area -->
-
-		<!-- Start team area -->
-		<section class="team-area">
-			<div class="container">
-				<div class="row sec-title">
+					<!-- .col -->
 					<div class="col-md-6">
-						<h1 class="fc-white">OLMCMC Doctors</h1>
-						<span class="border hidden"></span>
-					</div>
-					<div class="col-md-6 text-right for-screen">
-						<a class="btn btn-secondary pull-right" href="#">View all Doctors</a>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Start single item -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="single-team-member">
-							<div class="img-holder">
-								<img src="img/team/1.jpg" alt="Awesome Image">
-								<div class="overlay-style">
-									<div class="box">
-										<div class="content">
-											<div class="top">
-												<h3>Dr Benjamin Angeles</h3>
-												<span>Anesthesiology</span>
-											</div>
-											<span class="border"></span>
-											<div class="bottom">
-												<ul>
-													<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
-													<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
-												</ul>    
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-holder">
-									<h3>Dr Benjamin Angeles</h3> 
-									<span>Anesthesiology</span>   
-								</div>    
-							</div>
-						</div>
-					</div>
-					<!-- End single item -->
-
-					<!-- Start single item -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="single-team-member">
-							<div class="img-holder">
-								<img src="img/team/2.jpg" alt="Awesome Image">
-								<div class="overlay-style">
-									<div class="box">
-										<div class="content">
-											<div class="top">
-												<h3>Dr Beverly Alfonso</h3>
-												<span>Pediatrics</span>
-											</div>
-											<span class="border"></span>
-											<div class="bottom">
-												<ul>
-													<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
-													<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
-												</ul>    
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-holder">
-									<h3>Dr Beverly Alfonso</h3> 
-									<span>Pediatrics</span>   
-								</div>    
-							</div>
-						</div>
-					</div>
-					<!-- End single item -->
-
-					<!-- Start single item -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="single-team-member">
-							<div class="img-holder">
-								<img src="img/team/3.jpg" alt="Awesome Image">
-								<div class="overlay-style">
-									<div class="box">
-										<div class="content">
-											<div class="top">
-												<h3>Dr Kathryna Ayro</h3>
-												<span>Pathology</span>
-											</div>
-											<span class="border"></span>
-											<div class="bottom">
-												<ul>
-													<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
-													<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
-												</ul>    
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-holder">
-									<h3>Dr Kathryna Ayro</h3> 
-									<span>Pathology</span>   
-								</div>    
-							</div>
-						</div>
-					</div>
-					<!-- End single item -->
-
-					<!-- Start single item -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="single-team-member">
-							<div class="img-holder">
-								<img src="img/team/4.jpg" alt="Awesome Image">
-								<div class="overlay-style">
-									<div class="box">
-										<div class="content">
-											<div class="top">
-												<h3>Dr Demetria Azcueta</h3>
-												<span>Anesthesiology</span>
-											</div>
-											<span class="border"></span>
-											<div class="bottom">
-												<ul>
-													<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
-													<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
-												</ul>    
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="text-holder">
-									<h3>Dr Demetria Azcueta</h3> 
-									<span>Anesthesiology</span>   
-								</div>    
-							</div>
-						</div>
-					</div>
-					<!-- End single item -->
-				</div>
-				<div class="row text-center for-mobile">
-					<a class="btn btn-secondary" href="#">View all Doctors</a>
-				</div>
-			</div>
-		</section> 
-		<!-- End team area -->
-
-		<!-- Start latest blog area -->  
-		<section class="latest-blog-area">
-			<div class="container">
-				<div class="sec-title">
-					<h1>News and Updates</h1>
-					<span class="border"></span>
-				</div>
-				<div class="row">
-					<!-- Start single blog item -->
-					<div class="col-md-4">
-						<div class="single-blog-item">
-							<div class="img-holder">
-								<img src="img/blog/latest-blog-1.jpg" alt="Awesome Image">
-								<div class="overlay-style-one">
-									<div class="box">
-										<div class="content">
-											<a href="#"><span class="flaticon-plus-symbol"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-holder">
-								<a href="#">
-									<h3 class="blog-title">Lorem ipsum dolor sit amet</h3>
-								</a>
-								<div class="text">
-									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-								</div>
-								<ul class="meta-info">
-									<li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>September 9, 2021</a></li>
-								</ul>
-							</div>    
-						</div>    
-					</div>
-					<!-- End single blog item -->
-					
-					<!-- Start single blog item -->
-					<div class="col-md-4">
-						<div class="single-blog-item">
-							<div class="img-holder">
-								<img src="img/blog/latest-blog-2.jpg" alt="Awesome Image">
-								<div class="overlay-style-one">
-									<div class="box">
-										<div class="content">
-											<a href="#"><span class="flaticon-plus-symbol"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-holder">
-								<a href="#">
-									<h3 class="blog-title">Lorem ipsum dolor sit amet</h3>
-								</a>
-								<div class="text">
-									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-								</div>
-								<ul class="meta-info">
-									<li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>September 9, 2021</a></li>
-								</ul>
-							</div>   
-						</div>    
-					</div>
-					<!-- End single blog item -->
-					
-					<!-- Start single blog item -->
-					<div class="col-md-4">
-						<div class="single-blog-item">
-							<div class="img-holder">
-								<img src="img/blog/latest-blog-3.jpg" alt="Awesome Image">
-								<div class="overlay-style-one">
-									<div class="box">
-										<div class="content">
-											<a href="#"><span class="flaticon-plus-symbol"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-holder">
-								<a href="#">
-									<h3 class="blog-title">Lorem ipsum dolor sit amet</h3>
-								</a>
-								<div class="text">
-									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-								</div>
-								<ul class="meta-info">
-									<li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>September 9, 2021</a></li>
-								</ul>
-							</div>   
-						</div>    
-					</div>
-					<!-- End single blog item -->
-				</div>
-			</div>
-		</section>
-		<!-- End latest blog area -->
-		
-		<!-- Start latest blog area -->  
-		<section class="latest-blog-area facebook-feed">
-			<div class="container">
-				<div class="sec-title">
-					<h1>Facebook Feed</h1>
-					<span class="border"></span>
-				</div>
-				<div class="row">
-					<!-- Start single blog item -->
-					<div class="col-md-4">
-						<div class="single-blog-item">
-							<div class="img-holder">
-								<img src="img/facebook/August_6.jpg" alt="Awesome Image">
-								<div class="overlay-style-one">
-									<div class="box">
-										<div class="content">
-											<a href="#"><span class="flaticon-plus-symbol"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-holder">
-								<a href="#">
-									<h3 class="blog-title">Lorem ipsum dolor sit amet</h3>
-								</a>
-								<div class="text">
-									<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-									<div>
-										<img src="img/facebook/avatar.jpg" class="facebook-avatar" alt="Awesome Image">
-										<p><a href="#"><strong>Our Lady of Mt. Carmel...</strong></a></p>
-										<small class="">September 9, 2021</small>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<ul class="meta-info">
-									<li><i class="fal fa-heart"></i> 7</li>
-									<li><i class="fal fa-retweet"></i> 5</li>
-									<li><i class="fal fa-comment"></i> 17</li>
-								</ul>
-							</div>    
-						</div>    
-					</div>
-					<!-- End single blog item -->
-					
-					<!-- Start single blog item -->
-					<div class="col-md-4">
-						<div class="single-blog-item">
-							<div class="img-holder">
-								<img src="img/facebook/August_18.jpg" alt="Awesome Image">
-								<div class="overlay-style-one">
-									<div class="box">
-										<div class="content">
-											<a href="#"><span class="flaticon-plus-symbol"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-holder">
-								<a href="#">
-									<h3 class="blog-title">Lorem ipsum dolor sit amet</h3>
-								</a>
-								<div class="text">
-									<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-									<div>
-										<img src="img/facebook/avatar.jpg" class="facebook-avatar" alt="Awesome Image">
-										<p><a href="#"><strong>Our Lady of Mt. Carmel...</strong></a></p>
-										<small class="">September 9, 2021</small>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<ul class="meta-info">
-									<li><i class="fal fa-heart"></i> 7</li>
-									<li><i class="fal fa-retweet"></i> 5</li>
-									<li><i class="fal fa-comment"></i> 17</li>
-								</ul>
-							</div>   
-						</div>    
-					</div>
-					<!-- End single blog item -->
-					
-					<!-- Start single blog item -->
-					<div class="col-md-4">
-						<div class="single-blog-item">
-							<div class="img-holder">
-								<img src="img/facebook/August_19.jpg" alt="Awesome Image">
-								<div class="overlay-style-one">
-									<div class="box">
-										<div class="content">
-											<a href="#"><span class="flaticon-plus-symbol"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="text-holder">
-								<a href="#">
-									<h3 class="blog-title">Lorem ipsum dolor sit amet</h3>
-								</a>
-								<div class="text">
-									<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-									<div>
-										<img src="img/facebook/avatar.jpg" class="facebook-avatar" alt="Awesome Image">
-										<p><a href="#"><strong>Our Lady of Mt. Carmel...</strong></a></p>
-										<small class="">September 9, 2021</small>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<ul class="meta-info">
-									<li><i class="fal fa-heart"></i> 7</li>
-									<li><i class="fal fa-retweet"></i> 5</li>
-									<li><i class="fal fa-comment"></i> 17</li>
-								</ul>
-							</div>   
-						</div>    
-					</div>
-					<!-- End single blog item -->
-				</div>
-			</div>
-		</section>
-		<!-- End latest blog area -->
-
-		<!-- Start footer area -->  
-		<footer class="footer-area">
-			<div class="container">
-				<div class="row justify-content-between">
-					<!-- Start single footer widget -->
-					<div class="col-md-4">
-						<div class="single-footer-widget pd-bottom50">
-							<div class="title hidden">
-								<h3>About Hospitals</h3>
-								<span class="border"></span>
-							</div>
-							<div class="our-info">
-								<a href="index.html" class="mb-4 mt-0">
-									<img src="img/resources/logo-reverse.png" alt="Awesome Logo">
-								</a>
-								<p>The Our Lady of Mt. Carmel Medical Center was duly organized and registered with the Securities and Exchange Commission on August 19, 1999, as a domestic family corporation located at Km 78 McArthur Hi-way, Barangay Saguin, City of San Fernando, Pampanga, a place now booming with sprawling commercial establishments and subdivisions.</p>
-								<a href="#">Know More<i class="fa fa-caret-right" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-					<!-- End single footer widget -->
-					
-					<!-- Start single footer widget -->
-					<div class="col-md-4">
-						<div class="single-footer-widget mar-bottom">
-							<div class="title">
-								<h3>Contact Details</h3>
-								<span class="border"></span>
-							</div>
-							<ul class="footer-contact-info">
-								<li>
-									<div class="icon-holder">
-										<span class="flaticon-pin"></span>
-									</div>
-									<div class="text-holder">
-										<h5>Km.78 Mc. Arthur Highway Brgy. Saguin, City of San Fernando, Pampanga</h5>
-									</div>
-								</li>
-								<li>
-									<div class="icon-holder">
-										<span class="flaticon-interface"></span>
-									</div>
-									<div class="text-holder">
-										<h5><a href="#">patientrelations.csfp@olmcmc.com</a><br />
-										<a href="#">patientrelations.clark@olmcmc.com</a></h5>
-									</div>
-								</li>
-								<li>
-									<div class="icon-holder">
-										<span class="flaticon-technology-1"></span>
-									</div>
-									<div class="text-holder">
-										<h5><a href="#">(045) 435-2421</a>, <a href="#">(045) 435-2420</a><br />
-										<a href="#">(045) 860-1265</a>, <a href="#">(045) 860-0993</a></h5>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!-- End single footer widget -->
-					
-					<!-- Start single footer widget -->
-					<div class="col-md-3">
-						<div class="single-footer-widget clearfix">
-							<div class="title">
-								<h3>Newsletter</h3>
-								<span class="border"></span>
-							</div>
-							<p>Find out more of our exclusive promos and medical offers</p>
-							<form class="appointment-form" action="#">
-								<div class="input-box">
-									<input type="text" name="form_name" value="" placeholder="Your Name" required="">
-									<div class="icon-box">
-										<i class="fa fa-user" aria-hidden="true"></i>
-									</div>
-								</div>
-								<div class="input-box">
-									<input type="email" name="form_email" value="" placeholder="Your Email" required="">
-									<div class="icon-box">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-									</div>
-								</div>
-								<button type="submit">Subscribe</button>
-							</form>
-						</div>
-					</div>
-					<!-- End single footer widget -->
-				</div>
-			</div>
-		</footer>   
-		<!-- End footer area -->
-
-		<!-- Start footer bottom area -->
-		<section class="footer-bottom-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<div class="copyright-text">
-							<p>Copyrights Our Lady of Mt. Carmel Medical Center &copy; 2021 All Rights Reserved</p> 
-						</div>
-					</div>
-					<div class="col-md-4">
-						<ul class="footer-social-links">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+						<!-- -->
+						<ul class="list-contact">
+							<li>
+								<i class="fal fa-mobile-android"></i>
+								<h5>Hotline</h5>
+								<p>(045) 435-2421, (045) 435-2420</p>
+							</li>
+							<li>
+								<i class="fal fa-mobile-android"></i>
+								<h5>Hotline</h5>
+								<p>(045) 435-2421, (045) 435-2420</p>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- End footer bottom area -->
-
-	</div>
-	<!-- / -->
+		</div>
+		
+		<!-- -->
+		<div class="header-bot">
+			<!-- .container -->
+			<div class="container">
+				<!-- .row -->
+				<div class="row justify-content-between">
+					<!-- .col -->
+					<div class="col-md-10">
+						<ul class="list-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="specializations.html">Specializations</a></li>
+							<li><a href="patients.html">Patients</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- .col -->
+					<div class="col-md-2">
+						<ul class="list-menu">
+							<li class="list-menu-special"><a href="#">Online Results</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 	
-	<!-- Scroll to top -->
-	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-triangle-inside-circle"></span></div>
+	<!-- header -->
+	<header class="for-mobile">
+		<!-- -->
+		<div class="header-top">
+			<!-- .container -->
+			<div class="container-fluid">
+				<!-- .row -->
+				<div class="row">
+					<!-- .col -->
+					<div class="col-md-12">
+						<!-- -->
+						<ul class="list-contact">
+							<li><i class="fal fa-mobile-android"></i> (045) 435-2421</li>
+							<li><i class="fal fa-mobile-android"></i> (045) 435-2420</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- -->
+		<div class="header-bot">
+			<!-- .container -->
+			<div class="container">
+				<!-- .row -->
+				<div class="row align-items-center justify-content-start">
+					<!-- .col -->
+					<div class="col-md-12">
+						<!-- .col -->
+						<div class="col-logo">
+							<a href="index.html"><img src="img/logo.png" class="img-fluid" alt="Our Lady Of Mt. Carmel Medical Center" /></a>
+						</div>
 
-	<!-- Scripts -->
+						<!-- .col -->
+						<div class="col-menu">
+							<a class="menu-link" data-bs-toggle="modal" data-bs-target="#modal_menu"><i class="fal fa-bars"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- .modal-menu -->
+	<div class="modal modal-menu fade" id="modal_menu" tabindex="-1" aria-labelledby="modal_menu" aria-hidden="true">
+		<!-- .modal-dialog -->
+		<div class="modal-dialog">
+			<!-- .modal-content -->
+			<div class="modal-content">
+				<!-- .modal-header -->
+				<div class="modal-header">
+					<a href="index.html"><img src="img/logo.png" class="img-fluid" alt="Our Lady Of Mt. Carmel Medical Center" /></a>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				
+				<!-- .modal-body -->
+				<div class="modal-body">
+					<ul class="list-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="specializations.html">Specializations</a></li>
+						<li><a href="patients.html">Patients</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				
+				<!-- .modal-footer- -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Online Results</button>
+					<!--button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Contact Us</button-->
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- section -->
+	<section class="slider-main">
+		<!-- #slider-main -->
+		<div id="slider-main" class="carousel slide" data-bs-ride="carousel">
+			<!-- -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#slider-main" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#slider-main" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			</div>
+			
+			<!-- -->
+			<div class="carousel-inner">
+				<!-- -->
+				<div class="carousel-item active" style="background-image: url(img/slides/1.jpg)">
+					<!-- -->
+					<div class="container h-100 carousel-content">
+						<!-- -->
+						<div class="row align-items-center h-100">
+							<!-- -->
+							<div class="col-md-6">
+								<h1><strong>Experience Personal Care</strong></h1>
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+								<a href="#" class="btn btn-lg btn-secondary">Read More</a> &nbsp; <a href="#" class="btn btn-lg btn-primary">Departments</a>
+							</div>
+						</div>
+					</div>
+					<!-- -->
+				</div>
+			</div>
+			
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+	
+	<!-- section -->
+	<section class="find-a-doctor">
+		<!-- .container -->
+		<div class="container">
+			<!-- .row -->
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-3">
+					<!-- -->
+					<div class="widget-title">
+						<h4 class="mb-0">Find a Doctor</h4>
+					</div>
+				</div>
+				
+				<!-- -->
+				<div class="col-md-9">
+					<!-- -->
+					<div class="row h-100 align-items-center">
+						<!-- .col -->
+						<div class="col-md-3">
+							<input class="form-control" type="text" placeholder="First Name" />
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<input class="form-control" type="text" placeholder="Last Name" />
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<input class="form-control" list="option-specialization" id="option_specialization" placeholder="Specialization">
+							<datalist id="option-specialization">
+								<option value="Option 1"></option>
+								<option value="Option 2"></option>
+								<option value="Option 3"></option>
+								<option value="Option 4"></option>
+								<option value="Option 5"></option>
+							</datalist>
+						</div>
+						
+						<!-- .col -->
+						<div class="col-md-3">
+							<a href="#" class="btn btn-primary">Search</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- .medical-departments -->
+	<section class="medical-departments">
+		<!-- .container -->
+		<div class="container">
+			<!-- .section-title -->
+			<div class="section-title">
+				<h2>Medical Departments</h2>
+			</div>
+			
+			<!-- .row -->
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-12">
+					<!-- .medical-departments-carousel -->
+					<div class="medical-departments-carousel">
+						<!-- .single-item text-center -->
+						<div class="single-item text-center">
+							<!-- .icon-holder -->
+							<div class="icon-holder"><i class="fal fa-head-side-brain"></i></div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h4>Pyschiatry</h4>
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
+							</div>
+							<a class="readmore" href="#">Read More</a>
+						</div>
+
+						<!-- .single-item text-center -->
+						<div class="single-item text-center">
+							<!-- .icon-holder -->
+							<div class="icon-holder"><i class="fal fa-lungs"></i></div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h4>Pulmonology</h4>
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
+							</div>
+							<a class="readmore" href="#">Read More</a>
+						</div>
+
+						<!-- .single-item text-center -->
+						<div class="single-item text-center">
+							<!-- .icon-holder -->
+							<div class="icon-holder"><i class="fal fa-kidneys"></i></div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h4>Nephrology</h4>
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
+							</div>
+							<a class="readmore" href="#">Read More</a>
+						</div>
+
+						<!-- .single-item text-center -->
+						<div class="single-item text-center">
+							<!-- .icon-holder -->
+							<div class="icon-holder"><i class="fal fa-brain"></i></div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h4>Neurology</h4>
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
+							</div>
+							<a class="readmore" href="#">Read More</a>
+						</div>
+						
+						<!-- .single-item text-center -->
+						<div class="single-item text-center">
+							<!-- .icon-holder -->
+							<div class="icon-holder"><i class="fal fa-brain"></i></div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h4>Neurology</h4>
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
+							</div>
+							<a class="readmore" href="#">Read More</a>
+						</div>
+					</div>
+				</div>    
+			</div>
+		</div>
+	</section>
+	
+	<!-- .services -->
+	<section class="services">
+		<!-- .container -->
+		<div class="container">
+			<!-- .row -->
+			<div class="row section-title">
+				<!-- .col -->
+				<div class="col-md-6">
+					<h2>Our Services</h2>
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-6 text-right for-screen">
+					<a class="btn btn-primary btn-lg fa-pull-right" href="#">View all Services</a>
+				</div>
+			</div>
+			
+			<!-- .row -->
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-12">
+					<!-- .text-holder -->
+					<div class="text-holder">
+						<!-- .tab-box -->
+						<div class="tab-box">
+							<!-- .tab-content -->
+							<div class="tab-content" id="tab_content_services">
+								<!-- .tab-pane -->
+								<div class="tab-pane fade show active" id="emergency">
+									<!-- .inner-content -->
+									<div class="inner-content">
+										<!-- .row -->
+										<div class="row justify-content-around">
+											<!-- .col -->
+											<div class="col-md-5">
+												<!-- .img-box -->
+												<div class="img-box">
+													<img src="img/services/services-1.jpg" class="img-fluid" alt="" />
+												</div>    
+											</div> 
+											
+											<!-- .col -->
+											<div class="col-md-6">
+												<!-- .text-box -->
+												<div class="text-box">
+													<h3>Emergency Department</h3>
+													<p>The emergency department is pleased to serve you. The ER department provides initial treatment for a broad spectrum of illnesses and injuries, some of which may be life-threatening and require immediate attention. The OLMCMC-ERD operates for 24 hours a daily with competent and reliable doctors and nurses with 24 hour ambulance service. The ER team with physicians, nurses, and other healthcare professionals provides patients care, monitor health conditions, plan long-term care needs, administer medicine, use medical equipment, perform minor medical operations, advised patients and their families on illness, care and continued care after a hospital stay.</p>
+													<a class="btn btn-primary" href="#">Read More</a>
+												</div>    
+											</div>   
+										</div>
+									</div>
+								</div>
+								
+								<!-- .tab-pane -->
+								<div class="tab-pane fade" id="neonatal">
+									<!-- .inner-content -->
+									<div class="inner-content">
+										<!-- .row -->
+										<div class="row justify-content-around">
+											<!-- .col -->
+											<div class="col-md-5">
+												<!-- .img-box -->
+												<div class="img-box">
+													<img src="img/services/services-2.jpg" class="img-fluid" alt="" />
+												</div>    
+											</div> 
+											
+											<!-- .col -->
+											<div class="col-md-6">
+												<!-- .text-box -->
+												<div class="text-box">
+													<h3>Neonatal Intensive Care Unit</h3>
+													<p>The Neonatal Intensive Care Unit is high specialized care, and the most advanced pediatric treatment, in a gentle nurturing environment and provides 24-hour service. It accepts 27 weeks gestation or less to tern infants requiring Level II and Level III specialized care. The NICU family provides a family-centered approach to care; encompassing the parents and sick infants as a single unit. Thus including the family in all decision making and kept well informed and have complete understanding of all patient care activities and procedures. Other disciplines are involved in the care of the sick neonate including medical staff, respiratory therapy, pharmacy, radiology, infection control and physical therapy.</p>
+													<a class="btn btn-primary" href="#">Read More</a>
+												</div>    
+											</div>   
+										</div>
+									</div>
+								</div>
+								
+								<!-- .tab-pane -->
+								<div class="tab-pane fade" id="diagnostic">
+									<!-- .inner-content -->
+									<div class="inner-content">
+										<!-- .row -->
+										<div class="row justify-content-around">
+											<!-- .col -->
+											<div class="col-md-5">
+												<!-- .img-box -->
+												<div class="img-box">
+													<img src="img/services/services-3.jpg" class="img-fluid" alt="" />
+												</div>    
+											</div> 
+											
+											<!-- .col -->
+											<div class="col-md-6">
+												<!-- .text-box -->
+												<div class="text-box">
+													<h3>Diagnostic and Imaging Department</h3>
+													<p>The Diagnostic and Imaging Department in Our Lady of Mt. Carmel Medical Center has been serving the local community. It utilizes most technologically advanced diagnostic and imaging equipment in the area to better serve our patients. Our compassionate and friendly staff are fully trained with certified technologists, board certified radiologists, and board certified nuclear cardiologist.</p>
+													<a class="btn btn-primary" href="#">Read More</a>
+												</div>    
+											</div>   
+										</div>
+									</div>
+								</div>
+								
+								<!-- .tab-pane -->
+								<div class="tab-pane fade" id="hemodialysis">
+									<!-- .inner-content -->
+									<div class="inner-content">
+										<!-- .row -->
+										<div class="row justify-content-around">
+											<!-- .col -->
+											<div class="col-md-5">
+												<!-- .img-box -->
+												<div class="img-box">
+													<img src="img/services/services-4.jpg" class="img-fluid" alt="" />
+												</div>    
+											</div> 
+											
+											<!-- .col -->
+											<div class="col-md-6">
+												<!-- .text-box -->
+												<div class="text-box">
+													<h3>Hemodialysis Center</h3>
+													<p>The hemodialysis unit of Our Lady of Mt. Carmel Medical Center provides quality renal replacement therapy to out-patients and/or in-patients with acute and chronic disease. The department has thirty (30) hemodialysis machines. It is located at the upper ground and second floor (hemodialysis extension) of the medical center. We serve our patients six (6) days a week from 5 am to 10 pm for out-patients.</p>
+													<a class="btn btn-primary" href="#">Read More</a>
+												</div>    
+											</div>   
+										</div>
+									</div>
+								</div>
+								
+								<!-- .tab-pane -->
+								<div class="tab-pane fade" id="operating">
+									<!-- .inner-content -->
+									<div class="inner-content">
+										<!-- .row -->
+										<div class="row justify-content-around">
+											<!-- .col -->
+											<div class="col-md-5">
+												<!-- .img-box -->
+												<div class="img-box">
+													<img src="img/services/services-5.jpg" class="img-fluid" alt="" />
+												</div>    
+											</div> 
+											
+											<!-- .col -->
+											<div class="col-md-6">
+												<!-- .text-box -->
+												<div class="text-box">
+													<h3>Operating Room Department</h3>
+													<p>The operating room (O.R.) is a facility within a hospital specializing in different surgical procedures. Patients are being treated inside O.R. through surgical operations under anesthesia. Asides from the surgical procedures OR provides special care which includes IV fluid administration, medications, electro-cautery machine. Under O.R., the hospital has a Recovery Room (R.R.), known as Post Anesthesia Care Unit (PACU). It houses post – operative patients for a minimum of two hours or until the time the anesthesia had wear off. Moreover, there is a Central Supply Room (CSR) inside the theatre, where all the medicines and supplies are readily available once needed.</p>
+													<a class="btn btn-primary" href="#">Read More</a>
+												</div>    
+											</div>   
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- #tab_services -->
+							<ul class="nav nav-tabs tab-menu" id="tab_services" role="tablist">
+								<!-- -->
+								<li>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#emergency">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+											
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h3>Emergency Department</h3>
+								</li>
+								
+								<!-- -->
+								<li class="active">
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#neonatal">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+											
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>    
+									</a>
+									<h3>Neonatal Intensive Care Unit</h3>
+								</li>
+								
+								<!-- -->
+								<li>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#diagnostic">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+											
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h3>Diagnostic and Imaging Department</h3>
+								</li>
+								
+								<!-- -->
+								<li>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#hemodialysis">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+											
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h3>Hemodialysis Center</h3>
+								</li>
+								
+								<!-- -->
+								<li>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+											
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h3>Operating Room Department</h3>
+								</li>
+							</ul> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- .doctors -->
+	<section class="doctors">
+		<!-- .container -->
+		<div class="container">
+			<!-- .row -->
+			<div class="row section-title">
+				<!-- .col -->
+				<div class="col-md-6">
+					<h2>OLMCMC Doctors</h2>
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-6 text-right for-screen">
+					<a class="btn btn-primary btn-lg fa-pull-right" href="#">View all Doctors</a>
+				</div>
+			</div>
+			
+			<!-- .row -->
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-3">
+					<!-- .single-doctor -->
+					<div class="single-doctor">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/doctors/1.jpg" alt="">
+							
+							<!-- .overlay-style -->
+							<div class="overlay-style">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<!-- .top -->
+										<div class="top">
+											<h4>Dr Benjamin Angeles</h4>
+											<span>Anesthesiology</span>
+										</div>
+										<span class="border"></span>
+										
+										<!-- .bottom -->
+										<div class="bottom">
+											<ul class="list-unstyled">
+												<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
+												<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
+											</ul>    
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h3>Dr Benjamin Angeles</h3> 
+								<span>Anesthesiology</span>   
+							</div>    
+						</div>
+					</div>
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-3">
+					<!-- .single-doctor -->
+					<div class="single-doctor">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/doctors/1.jpg" alt="">
+							
+							<!-- .overlay-style -->
+							<div class="overlay-style">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<!-- .top -->
+										<div class="top">
+											<h4>Dr Benjamin Angeles</h4>
+											<span>Anesthesiology</span>
+										</div>
+										<span class="border"></span>
+										
+										<!-- .bottom -->
+										<div class="bottom">
+											<ul class="list-unstyled">
+												<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
+												<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
+											</ul>    
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h3>Dr Benjamin Angeles</h3> 
+								<span>Anesthesiology</span>   
+							</div>    
+						</div>
+					</div>
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-3">
+					<!-- .single-doctor -->
+					<div class="single-doctor">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/doctors/1.jpg" alt="">
+							
+							<!-- .overlay-style -->
+							<div class="overlay-style">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<!-- .top -->
+										<div class="top">
+											<h4>Dr Benjamin Angeles</h4>
+											<span>Anesthesiology</span>
+										</div>
+										<span class="border"></span>
+										
+										<!-- .bottom -->
+										<div class="bottom">
+											<ul class="list-unstyled">
+												<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
+												<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
+											</ul>    
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h3>Dr Benjamin Angeles</h3> 
+								<span>Anesthesiology</span>   
+							</div>    
+						</div>
+					</div>
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-3">
+					<!-- .single-doctor -->
+					<div class="single-doctor">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/doctors/1.jpg" alt="">
+							
+							<!-- .overlay-style -->
+							<div class="overlay-style">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<!-- .top -->
+										<div class="top">
+											<h4>Dr Benjamin Angeles</h4>
+											<span>Anesthesiology</span>
+										</div>
+										<span class="border"></span>
+										
+										<!-- .bottom -->
+										<div class="bottom">
+											<ul class="list-unstyled">
+												<li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 78 90</li>
+												<li><i class="fa fa-envelope" aria-hidden="true"></i> email@address.com</li>
+											</ul>    
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- .text-holder -->
+							<div class="text-holder">
+								<h3>Dr Benjamin Angeles</h3> 
+								<span>Anesthesiology</span>   
+							</div>    
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- .for-mobile -->
+			<div class="row text-center for-mobile">
+				<a class="btn btn-secondary" href="#">View all Doctors</a>
+			</div>
+		</div>
+	</section> 
+	
+	<!-- .blog -->  
+	<section class="blog">
+		<!-- .container -->
+		<div class="container">
+			<!-- -->
+			<div class="section-title">
+				<h2>News and Updates</h2>
+			</div>
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-4">
+					<!-- -->
+					<div class="single-blog-item">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/blog/blog-1.jpg" alt="">
+							
+							<!-- -->
+							<div class="overlay-style-one">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<a href="#"><i class="fal fa-plus fa-3x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="text-holder">
+							<h4 class="blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h4>
+							
+							<!-- -->
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+							</div>
+							
+							<!-- -->
+							<ul class="meta-info">
+								<li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>September 9, 2021</a></li>
+							</ul>
+						</div>    
+					</div>    
+				</div>
+
+				<!-- .col -->
+				<div class="col-md-4">
+					<!-- -->
+					<div class="single-blog-item">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/blog/blog-1.jpg" alt="">
+							
+							<!-- -->
+							<div class="overlay-style-one">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<a href="#"><i class="fal fa-plus fa-3x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="text-holder">
+							<h4 class="blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h4>
+							
+							<!-- -->
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+							</div>
+							
+							<!-- -->
+							<ul class="meta-info">
+								<li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>September 9, 2021</a></li>
+							</ul>
+						</div>    
+					</div>    
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-4">
+					<!-- -->
+					<div class="single-blog-item">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/blog/blog-1.jpg" alt="">
+							
+							<!-- -->
+							<div class="overlay-style-one">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<a href="#"><i class="fal fa-plus fa-3x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="text-holder">
+							<h4 class="blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h4>
+							
+							<!-- -->
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+							</div>
+							
+							<!-- -->
+							<ul class="meta-info">
+								<li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>September 9, 2021</a></li>
+							</ul>
+						</div>    
+					</div>    
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- .facebook -->  
+	<section class="facebook blog">
+		<!-- .container -->
+		<div class="container">
+			<!-- -->
+			<div class="section-title">
+				<h2>Facebook Feed</h2>
+			</div>
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-4">
+					<!-- -->
+					<div class="single-blog-item">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/facebook/August_6.jpg" alt="">
+							
+							<!-- -->
+							<div class="overlay-style-one">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<a href="#"><i class="fal fa-plus fa-3x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="text-holder">
+							<h4 class="blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h4>
+							
+							<!-- -->
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+								<div class="mt-4">
+									<img src="img/facebook/avatar.jpg" class="facebook-avatar" alt="Awesome Image">
+									<p><a href="#"><strong>Our Lady of Mt. Carmel...</strong></a></p>
+									<small class="">September 9, 2021</small>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							
+							<!-- -->
+							<ul class="meta-info">
+								<li><i class="fal fa-heart"></i> 7</li>
+								<li><i class="fal fa-retweet"></i> 5</li>
+								<li><i class="fal fa-comment"></i> 17</li>
+							</ul>
+						</div>    
+					</div>    
+				</div>
+
+				<!-- .col -->
+				<div class="col-md-4">
+					<!-- -->
+					<div class="single-blog-item">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/facebook/August_6.jpg" alt="">
+							
+							<!-- -->
+							<div class="overlay-style-one">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<a href="#"><i class="fal fa-plus fa-3x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="text-holder">
+							<h4 class="blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h4>
+							
+							<!-- -->
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+								<div class="mt-4">
+									<img src="img/facebook/avatar.jpg" class="facebook-avatar" alt="Awesome Image">
+									<p><a href="#"><strong>Our Lady of Mt. Carmel...</strong></a></p>
+									<small class="">September 9, 2021</small>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							
+							<!-- -->
+							<ul class="meta-info">
+								<li><i class="fal fa-heart"></i> 7</li>
+								<li><i class="fal fa-retweet"></i> 5</li>
+								<li><i class="fal fa-comment"></i> 17</li>
+							</ul>
+						</div>    
+					</div>    
+				</div>
+				
+				<!-- .col -->
+				<div class="col-md-4">
+					<!-- -->
+					<div class="single-blog-item">
+						<!-- -->
+						<div class="img-holder">
+							<img src="img/facebook/August_6.jpg" alt="">
+							
+							<!-- -->
+							<div class="overlay-style-one">
+								<!-- -->
+								<div class="box">
+									<!-- -->
+									<div class="content">
+										<a href="#"><i class="fal fa-plus fa-3x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- -->
+						<div class="text-holder">
+							<h4 class="blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h4>
+							
+							<!-- -->
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+								<div class="mt-4">
+									<img src="img/facebook/avatar.jpg" class="facebook-avatar" alt="Awesome Image">
+									<p><a href="#"><strong>Our Lady of Mt. Carmel...</strong></a></p>
+									<small class="">September 9, 2021</small>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							
+							<!-- -->
+							<ul class="meta-info">
+								<li><i class="fal fa-heart"></i> 7</li>
+								<li><i class="fal fa-retweet"></i> 5</li>
+								<li><i class="fal fa-comment"></i> 17</li>
+							</ul>
+						</div>    
+					</div>    
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- footer -->
+	<footer class="">
+		<!-- .kneeler -->
+		<div class="kneeler">
+			<!-- .container -->
+			<div class="container">
+				<!-- .row -->
+				<div class="row justify-content-between">
+					<!-- .col -->
+					<div class="col-md-4">
+						<!-- -->
+						<div class="widget">
+							<a href="#"><img src="img/logo-reverse.png" class="img-fluid logo" alt="" /></a>
+							<p>The Our Lady of Mt. Carmel Medical Center was duly organized and registered with the Securities and Exchange Commission on August 19, 1999, as a domestic family corporation located at Km 78 McArthur Hi-way, Barangay Saguin, City of San Fernando, Pampanga, a place now booming with sprawling commercial establishments and subdivisions.</p>
+						</div>
+					</div>
+
+					<!-- .col -->
+					<div class="col-md-4">
+						<!-- -->
+						<div class="widget">
+							<h4 class="widget-title">Contact Us</h4>
+							<ul class="list-contact">
+								<li>
+									<i class="fal fa-map-marker-alt"></i>
+									<span>
+										<p>Km.78 Mc. Arthur Highway Brgy. Saguin, City of San Fernando, Pampanga</p>
+									</span>
+								</li>
+								<li>
+									<i class="fal fa-envelope"></i>
+									<span>
+										<p><a href="mailto:patientrelations.csfp@olmcmc.com">patientrelations.csfp@olmcmc.com</a></p>
+										<p><a href="mailto:patientrelations.clark@olmcmc.com">patientrelations.clark@olmcmc.com</a></p>
+									</span>
+								</li>
+								<li>
+									<i class="fal fa-phone"></i>
+									<span>
+										<p><a href="tel:0454352421">(045) 435-2421</a>, <a href="tel:0454352420">(045) 435-2420</a></p>
+										<p><a href="tel:0458601265">(045) 860-1265</a>, <a href="tel:0458600993">(045) 435-2420</a></p>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- .col -->
+					<div class="col-md-3">
+						<!-- -->
+						<div class="widget newsletter">
+							<h4 class="widget-title">Newsletter</h4>
+							<p>Find out more of our exclusive promos and medical offers</p>
+							<form>
+								<!-- -->
+								<div class="input-group flex-nowrap mb-3">
+									<span class="input-group-text"><i class="fal fa-user"></i></span>
+									<input type="text" class="form-control" placeholder="Full Name">
+								</div>
+
+								<!-- -->
+								<div class="input-group flex-nowrap mb-3">
+									<span class="input-group-text"><i class="fal fa-envelope"></i></span>
+									<input type="text" class="form-control" placeholder="Email Address">
+								</div>
+
+								<a href="#" class="btn btn-primary">Read More</a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- .copyright -->
+		<div class="copyright">
+			<!-- .container -->
+			<div class="container">
+				<!-- .row -->
+				<div class="row h-100 align-items-center">
+					<!-- .col -->
+					<div class="col-md-8">
+						<p>Copyrights Our Lady of Mt. Carmel Medical Center &copy; 2021 All Rights Reserved</p>
+					</div>
+					
+					<!-- .col -->
+					<div class="col-md-4">
+						<ul class="list-social">
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fas fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- section -->
+	<section class="hidden">
+		<!-- .container -->
+		<div class="container">
+			<!-- .row -->
+			<div class="row">
+				<!-- .col -->
+				<div class="col-md-12">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- -->
 	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/wow.js"></script>
+	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.bxslider.min.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/validation.js"></script>
-	<script src="js/jquery.mixitup.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/jquery.fancybox.pack.js"></script>
-	<script src="js/jquery.appear.js"></script>
-	<script src="assets/timepicker/timePicker.js"></script>
-	<script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>   
-	<script src="assets/jquery-ui-1.11.4/jquery-ui.js"></script>
-
-	<!-- Revolution Slider -->
-	<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-
-	<!-- Custom Script -->
-	<script src="js/custom.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/scripts.js"></script>	
 </body>
 </html>
