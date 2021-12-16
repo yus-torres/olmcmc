@@ -48,7 +48,7 @@ header { padding: 0 20px; position: fixed; background-color: #FFFFFF; width: 100
 header { z-index: 100; box-shadow: 0 0 10px 5px rgba(0,0,0,0.1); top: 0; }
 header .header-top { border-bottom: 1px solid #F1F1F1; padding-top: 30px; padding-bottom: 30px; transition: ease all 0.3s; }
 header .header-top .list-contact { display: flex; list-style: none; height: 100%; align-items: center; margin-bottom: 0; }
-header .header-top .list-contact li { flex: 1 0 0%; display: inline-block; color: #8b0f4b; }
+header .header-top .list-contact li { flex: 1 0 0%; display: inline-block; color: #8b0f4b; border: 0; margin: 0; padding: 0; }
 header .header-top .list-contact li i { float: left; font-size: 48px; margin-right: 10px; }
 header .header-top .list-contact li p { margin-bottom: 0; font-size: 14px; color: #777777; }
 header.append .header-top { padding-top: 15px; padding-bottom: 15px; }
