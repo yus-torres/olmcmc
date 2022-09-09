@@ -18,7 +18,7 @@
 	<![endif] -->
 </head>
 
-<body>
+<body class="home">
 	<!-- -->
 	<div id="top"></div>
 	
@@ -50,12 +50,12 @@
 						<ul class="list-contact">
 							<li>
 								<i class="fal fa-mobile-android"></i>
-								<h5>Hotline</h5>
+								<h5>San Fernando Hotline</h5>
 								<p>(045) 435-2421, (045) 435-2420</p>
 							</li>
 							<li>
 								<i class="fal fa-mobile-android"></i>
-								<h5>Hotline</h5>
+								<h5>Clark Hotline</h5>
 								<p>(045) 435-2421, (045) 435-2420</p>
 							</li>
 						</ul>
@@ -77,7 +77,7 @@
 							<li><a href="about.html">About</a></li>
 							<li><a href="doctors.html">Doctors</a></li>
 							<li><a href="services.html">Services</a></li>
-							<li><a href="specializations.html">Specializations</a></li>
+							<li class="hidden"><a href="specializations.html">Specializations</a></li>
 							<li><a href="patients.html">Patients</a></li>
 							<li><a href="news.html">News</a></li>
 							<li><a href="careers.html">Careers</a></li>
@@ -157,7 +157,7 @@
 						<li><a href="about.html">About</a></li>
 						<li><a href="doctors.html">Doctors</a></li>
 						<li><a href="services.html">Services</a></li>
-						<li><a href="specializations.html">Specializations</a></li>
+						<li class="hidden"><a href="specializations.html">Specializations</a></li>
 						<li><a href="patients.html">Patients</a></li>
 						<li><a href="news.html">News</a></li>
 						<li><a href="careers.html">Careers</a></li>
@@ -196,7 +196,7 @@
 							<div class="col-md-6">
 								<h1><strong>Experience Personal Care</strong></h1>
 								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-								<a href="#" class="btn btn-lg btn-secondary">Read More</a> &nbsp; <a href="#" class="btn btn-lg btn-primary">Departments</a>
+								<a href="#" class="btn btn-lg btn-primary">Our Services</a>
 							</div>
 						</div>
 					</div>					
@@ -218,11 +218,11 @@
 	</section>
 	
 	<!-- section -->
-	<section class="find-a-doctor">
+	<section class="find-a-doctor p-0">
 		<!-- .container -->
 		<div class="container">
 			<!-- .row -->
-			<div class="row">
+			<form class="row  align-items-center">
 				<!-- .col -->
 				<div class="col-md-3">
 					<!-- .widget-title -->
@@ -232,38 +232,46 @@
 				</div>
 				
 				<!-- .col -->
-				<div class="col-md-9">
+				<div class="col-md-8">
 					<!-- .row -->
 					<div class="row h-100 align-items-center">
 						<!-- .col -->
-						<div class="col-md-3">
+						<div class="col">
 							<input class="form-control" type="text" placeholder="First Name" />
 						</div>
 
 						<!-- .col -->
-						<div class="col-md-3">
+						<div class="col">
 							<input class="form-control" type="text" placeholder="Last Name" />
 						</div>
 
 						<!-- .col -->
-						<div class="col-md-3">
+						<div class="col">
 							<input class="form-control" list="option-specialization" id="option_specialization" placeholder="Specialization">
 							<datalist id="option-specialization">
-								<option value="Option 1"></option>
-								<option value="Option 2"></option>
-								<option value="Option 3"></option>
-								<option value="Option 4"></option>
-								<option value="Option 5"></option>
+								<option value="Pyschiatry"></option>
+								<option value="Pulmonology"></option>
+								<option value="Nephrology"></option>
+								<option value="Neurology"></option>
 							</datalist>
 						</div>
 						
 						<!-- .col -->
-						<div class="col-md-3">
-							<a href="#" class="btn btn-primary">Search</a>
+						<div class="col">
+							<input class="form-control" list="option-branch" id="option_branch" placeholder="Branch">
+							<datalist id="option-branch">
+								<option value="San Fernando"></option>
+								<option value="Clark"></option>
+							</datalist>
 						</div>
 					</div>
 				</div>
-			</div>
+				
+				<!-- .col -->
+				<div class="col-md-1">
+					<a href="#" class="btn btn-primary"><i class="fal fa-search"></i></a>
+				</div>
+			</form>
 		</div>
 	</section>
 	
@@ -273,7 +281,7 @@
 		<div class="container">
 			<!-- .section-title -->
 			<div class="section-title">
-				<h2>Medical Departments</h2>
+				<h2>Specializations</h2>
 			</div>
 			
 			<!-- .row -->
@@ -664,7 +672,7 @@
 					<div class="card-doctor">
 						<!-- .img-holder -->
 						<div class="img-holder">
-							<img src="img/doctors/1.jpg" alt="">
+							<img src="img/doctors/0.jpg" alt="">
 							
 							<!-- .overlay-style -->
 							<div class="overlay-style">
@@ -674,10 +682,10 @@
 									<div class="content">
 										<!-- .top -->
 										<div class="top">
-											<h4>Dr Benjamin Angeles</h4>
-											<span>Anesthesiology</span>
+											<h4>Dr Firstname Lastname</h4>
+											<span>Specialization</span>
+											<span class="border"></span>
 										</div>
-										<span class="border"></span>
 										
 										<!-- .bottom -->
 										<div class="bottom">
@@ -692,8 +700,8 @@
 							
 							<!-- .text-holder -->
 							<div class="text-holder">
-								<h3>Dr Benjamin Angeles</h3> 
-								<span>Anesthesiology</span>   
+								<h3>Dr Firstname Lastname</h3> 
+								<span>Specialization</span>   
 							</div>    
 						</div>
 					</div>
@@ -705,7 +713,7 @@
 					<div class="card-doctor">
 						<!-- .img-holder -->
 						<div class="img-holder">
-							<img src="img/doctors/1.jpg" alt="">
+							<img src="img/doctors/0.jpg" alt="">
 							
 							<!-- .overlay-style -->
 							<div class="overlay-style">
@@ -715,10 +723,10 @@
 									<div class="content">
 										<!-- .top -->
 										<div class="top">
-											<h4>Dr Benjamin Angeles</h4>
-											<span>Anesthesiology</span>
+											<h4>Dr Firstname Lastname</h4>
+											<span>Specialization</span>
+											<span class="border"></span>
 										</div>
-										<span class="border"></span>
 										
 										<!-- .bottom -->
 										<div class="bottom">
@@ -733,8 +741,8 @@
 							
 							<!-- .text-holder -->
 							<div class="text-holder">
-								<h3>Dr Benjamin Angeles</h3> 
-								<span>Anesthesiology</span>   
+								<h3>Dr Firstname Lastname</h3> 
+								<span>Specialization</span>   
 							</div>    
 						</div>
 					</div>
@@ -746,7 +754,7 @@
 					<div class="card-doctor">
 						<!-- .img-holder -->
 						<div class="img-holder">
-							<img src="img/doctors/1.jpg" alt="">
+							<img src="img/doctors/0.jpg" alt="">
 							
 							<!-- .overlay-style -->
 							<div class="overlay-style">
@@ -756,10 +764,10 @@
 									<div class="content">
 										<!-- .top -->
 										<div class="top">
-											<h4>Dr Benjamin Angeles</h4>
-											<span>Anesthesiology</span>
+											<h4>Dr Firstname Lastname</h4>
+											<span>Specialization</span>
+											<span class="border"></span>
 										</div>
-										<span class="border"></span>
 										
 										<!-- .bottom -->
 										<div class="bottom">
@@ -774,8 +782,8 @@
 							
 							<!-- .text-holder -->
 							<div class="text-holder">
-								<h3>Dr Benjamin Angeles</h3> 
-								<span>Anesthesiology</span>   
+								<h3>Dr Firstname Lastname</h3> 
+								<span>Specialization</span>   
 							</div>    
 						</div>
 					</div>
@@ -787,7 +795,7 @@
 					<div class="card-doctor">
 						<!-- .img-holder -->
 						<div class="img-holder">
-							<img src="img/doctors/1.jpg" alt="">
+							<img src="img/doctors/0.jpg" alt="">
 							
 							<!-- .overlay-style -->
 							<div class="overlay-style">
@@ -797,10 +805,10 @@
 									<div class="content">
 										<!-- .top -->
 										<div class="top">
-											<h4>Dr Benjamin Angeles</h4>
-											<span>Anesthesiology</span>
+											<h4>Dr Firstname Lastname</h4>
+											<span>Specialization</span>
+											<span class="border"></span>
 										</div>
-										<span class="border"></span>
 										
 										<!-- .bottom -->
 										<div class="bottom">
@@ -815,8 +823,8 @@
 							
 							<!-- .text-holder -->
 							<div class="text-holder">
-								<h3>Dr Benjamin Angeles</h3> 
-								<span>Anesthesiology</span>   
+								<h3>Dr Firstname Lastname</h3> 
+								<span>Specialization</span>   
 							</div>    
 						</div>
 					</div>
@@ -1113,8 +1121,8 @@
 					<!-- .col -->
 					<div class="col-md-4">
 						<!-- .widget -->
-						<div class="widget">
-							<a href="#"><img src="img/logo-reverse.png" class="img-fluid logo" alt="" /></a>
+						<div class="widget widget-about">
+							<a href="index.html"><img src="img/logo-reverse.png" class="img-fluid logo" alt="" /></a>
 							<p>The Our Lady of Mt. Carmel Medical Center was duly organized and registered with the Securities and Exchange Commission on August 19, 1999, as a domestic family corporation located at Km 78 McArthur Hi-way, Barangay Saguin, City of San Fernando, Pampanga, a place now booming with sprawling commercial establishments and subdivisions.</p>
 						</div>
 					</div>
@@ -1123,7 +1131,37 @@
 					<div class="col-md-4">
 						<!-- .widget -->
 						<div class="widget">
-							<h4 class="widget-title">Contact Us</h4>
+							<h4 class="widget-title">San Fernando</h4>
+							<ul class="list-contact">
+								<li>
+									<i class="fal fa-map-marker-alt"></i>
+									<span>
+										<p>Km.78 Mc. Arthur Highway Brgy. Saguin, City of San Fernando, Pampanga</p>
+									</span>
+								</li>
+								<li>
+									<i class="fal fa-envelope"></i>
+									<span>
+										<p><a href="mailto:patientrelations.csfp@olmcmc.com">patientrelations.csfp@olmcmc.com</a></p>
+										<p><a href="mailto:patientrelations.clark@olmcmc.com">patientrelations.clark@olmcmc.com</a></p>
+									</span>
+								</li>
+								<li>
+									<i class="fal fa-phone"></i>
+									<span>
+										<p><a href="tel:0454352421">(045) 435-2421</a>, <a href="tel:0454352420">(045) 435-2420</a></p>
+										<p><a href="tel:0458601265">(045) 860-1265</a>, <a href="tel:0458600993">(045) 435-2420</a></p>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- .col -->
+					<div class="col-md-4">
+						<!-- .widget -->
+						<div class="widget">
+							<h4 class="widget-title">Clark</h4>
 							<ul class="list-contact">
 								<li>
 									<i class="fal fa-map-marker-alt"></i>
@@ -1150,10 +1188,10 @@
 					</div>
 
 					<!-- .col -->
-					<div class="col-md-3">
+					<div class="col-md-3 hidden">
 						<!-- .widget -->
 						<div class="widget newsletter">
-							<h4 class="widget-title">Newsletter</h4>
+							<h4 class="widget-title">Newsletter Temporary</h4>
 							<p>Find out more of our exclusive promos and medical offers</p>
 							
 							<!-- form -->
@@ -1186,7 +1224,7 @@
 				<div class="row h-100 align-items-center">
 					<!-- .col -->
 					<div class="col-md-8">
-						<p>Copyrights Our Lady of Mt. Carmel Medical Center &copy; 2021 All Rights Reserved</p>
+						<p>Copyrights Our Lady of Mt. Carmel Medical Center &copy; 2022 All Rights Reserved</p>
 					</div>
 					
 					<!-- .col -->
