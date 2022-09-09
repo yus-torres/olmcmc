@@ -462,6 +462,14 @@ footer .widget-about p { font-size: 14px; line-height: 28px; }
 
 .form-control { border-color: #8b0f4b; border-radius: 3px; }
 
+/* */
+body.services .nav-pills { border-bottom: 1px solid #F1F1F1; }
+body.services .nav-pills li { width: auto; margin: 0; }
+body.services .nav-pills li .nav-link { display: block; background: #F1F1F1; color: #000000; padding: 20px 40px; border: 0; border-radius: 0; }
+body.services .nav-pills li .nav-link.active,
+body.services .nav-pills li .nav-link.active:focus,
+body.services .nav-pills li .nav-link.active:hover { color: #FFFFFF; cursor: default; background: #8b0f4b !important; border: 0; }
+
 /* Animations */
 @keyframes beating {
 	0%		{ box-shadow: 0 0 0  5px rgba(184, 31 ,104, 0.2); }

@@ -198,7 +198,7 @@
 	</section>
 	
 	<!-- section -->
-	<section class="find-a-doctor search-services pb-0">
+	<section class="find-a-doctor search-services pb-0 hidden">
 		<!-- .container -->
 		<div class="container">
 			<!-- .row -->
@@ -276,587 +276,1198 @@
 	<section class="services">
 		<!-- .container -->
 		<div class="container">
-			<!-- .row -->
-			<div class="row deck-window">
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#emergency">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-1.jpg" alt="" />
+			<!-- -->
+			<div class="row">
+				<!-- -->
+				<div class="col-md-12">
+					<ul class="nav nav-pills mb-5" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab_branch_1" type="button" role="tab">San Fernando</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_branch_2" type="button" role="tab">Clark</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- .container -->
+		<div class="container">
+			<div class="tab-content" id="tab_branches">
+				<div class="tab-pane fade show active" id="tab_branch_1" role="tabpanel">
+					<!-- .row -->
+					<div class="row deck-window">
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#emergency">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
 
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
 											</div>
 										</div>
-									</div>
+									</a>
+									<h4>Emergency Department</h4>
 								</div>
-							</a>
-							<h4>Emergency Department</h4>
+							</div>
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div class="active">
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#neonatal">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>    
+									</a>
+									<h4>Neonatal Intensive Care Unit</h4>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#diagnostic">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Diagnostic and Imaging Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#hemodialysis">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Hemodialysis Center</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Operating Room Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Diagnostic and Imaging Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Pulmonary Laboratory</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Physical Medicine and Rehabilitation Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Molecular Laboratory Result</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Laboratory Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Heart Station</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Nuclear Medicine</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Diabetes Center</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Welness Center</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Labor and Delivery Room Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Chemotheraphy Unit</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Chemotheraphy Unit</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Endoscopy Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Ear, Nose and Throar (ENT)</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Eye Center</h4>
+								</div>
+							</div>					
 						</div>
 					</div>
 				</div>
 				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div class="active">
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#neonatal">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-2.jpg" alt="" />
+				<!-- -->
+				<div class="tab-pane fade" id="tab_branch_2" role="tabpanel">
+					<!-- .row -->
+					<div class="row deck-window">
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#emergency">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
 
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
 											</div>
 										</div>
-									</div>
-								</div>    
-							</a>
-							<h4>Neonatal Intensive Care Unit</h4>
+									</a>
+									<h4>Emergency Department</h4>
+								</div>
+							</div>
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div class="active">
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#neonatal">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>    
+									</a>
+									<h4>Neonatal Intensive Care Unit</h4>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#diagnostic">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Diagnostic and Imaging Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#hemodialysis">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Hemodialysis Center</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Operating Room Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Diagnostic and Imaging Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Pulmonary Laboratory</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Physical Medicine and Rehabilitation Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Molecular Laboratory Result</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Laboratory Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Heart Station</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Nuclear Medicine</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Diabetes Center</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Welness Center</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-5.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Labor and Delivery Room Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-1.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Chemotheraphy Unit</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-2.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Chemotheraphy Unit</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-3.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Endoscopy Department</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Ear, Nose and Throar (ENT)</h4>
+								</div>
+							</div>					
+						</div>
+
+						<!-- .col -->
+						<div class="col-md-3">
+							<!-- .card-item -->
+							<div class="card-item">
+								<!-- -->
+								<div>
+									<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
+										<!-- .img-holder -->
+										<div class="img-holder">
+											<img src="img/services/services-4.jpg" alt="" />
+
+											<!-- .overlay-style-one -->
+											<div class="overlay-style-one">
+												<!-- .box -->
+												<div class="box">
+													<!-- .content -->
+													<div class="content">
+														<!-- .icon-holder -->
+														<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<h4>Eye Center</h4>
+								</div>
+							</div>					
 						</div>
 					</div>
-					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#diagnostic">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-3.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Diagnostic and Imaging Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#hemodialysis">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-4.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Hemodialysis Center</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-5.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Operating Room Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-1.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Diagnostic and Imaging Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-2.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Pulmonary Laboratory</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-3.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Physical Medicine and Rehabilitation Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-4.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Molecular Laboratory Result</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-5.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Laboratory Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-1.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Heart Station</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-2.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Nuclear Medicine</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-3.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Diabetes Center</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-4.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Welness Center</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-5.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Labor and Delivery Room Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-1.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Chemotheraphy Unit</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-2.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Chemotheraphy Unit</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-3.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Endoscopy Department</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-4.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Ear, Nose and Throar (ENT)</h4>
-						</div>
-					</div>					
-				</div>
-				
-				<!-- .col -->
-				<div class="col-md-3">
-					<!-- .card-item -->
-					<div class="card-item">
-						<!-- -->
-						<div>
-							<a data-toggle="tab" data-bs-toggle="tab" data-bs-target="#operating">
-								<!-- .img-holder -->
-								<div class="img-holder">
-									<img src="img/services/services-4.jpg" alt="" />
-
-									<!-- .overlay-style-one -->
-									<div class="overlay-style-one">
-										<!-- .box -->
-										<div class="box">
-											<!-- .content -->
-											<div class="content">
-												<!-- .icon-holder -->
-												<div class="icon-holder"><i class="fal fa-plus fa-2x"></i></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<h4>Eye Center</h4>
-						</div>
-					</div>					
 				</div>
 			</div>
 		</div>
@@ -904,7 +1515,7 @@
 						<!-- .widget -->
 						<div class="widget widget-about">
 							<a href="index.html"><img src="img/logo-reverse.png" class="img-fluid logo" alt="" /></a>
-							<p>The Our Lady of Mt. Carmel Medical Center was duly organized and registered with the Securities and Exchange Commission on August 19, 1999, as a domestic family corporation located at Km 78 McArthur Hi-way, Barangay Saguin, City of San Fernando, Pampanga, a place now booming with sprawling commercial establishments and subdivisions.</p>
+							<p>The Our Lady of Mt. Carmel Medical Center was duly organized and registered with the Securities and Exchange Commission on August 19, 1999, as a domestic family corporation located at Km 78 McArthur Hi-way, Barangay Saguin, City of San Fernando, Pampanga.</p>
 						</div>
 					</div>
 
@@ -999,7 +1610,6 @@
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/slick.min.js"></script>
 	<script src="js/scripts.js"></script>	
 </body>
 </html>
