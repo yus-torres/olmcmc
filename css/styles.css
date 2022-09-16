@@ -27,6 +27,7 @@ section { padding: 100px 20px; }
 .required { color: red; font-weight: bold; }
 .full-width { width: 100%; }
 .section-title { border-bottom: 1px solid #F1F1F1; margin-bottom: 30px; }
+.anchor-link { scroll-margin-top: 200px; }
 
 /* Background Colors */
 .bg-shade	{ background-color: #F1F1F1 !important; color: #000000 !important; }
@@ -216,6 +217,7 @@ section.doctors .section-title .btn-primary:hover { border-color: #6b0830; backg
 
 /* Services */
 section.services { background: #fcfcfc; padding-top: 80px; padding-bottom: 80px; border-bottom: 1px solid #f0f0f0; border-top: 1px solid #f0f0f0; }
+section.services .row { margin-bottom: 50px; border-bottom: 1px solid #f0f0f0; padding-bottom: 40px; }
 section.services .img-holder { position: relative; overflow: hidden; display: block; }
 section.services .img-holder img { width: 100%; }
 section.services .img-holder .overlay-content { position: absolute; left: 10px; right: 10px; bottom: 10px; height: auto; }
@@ -405,6 +407,16 @@ section.services .tab-menu li.active a:hover { color: #555; cursor: default; bac
 .list-links li.active:before,
 .list-links li:hover:before { left: 20px; opacity: 1; color: #8b0f4b; }
 
+/* List: Services */
+.list-services { padding: 0; padding-bottom: 20px; vertical-align: top; }
+.list-services li { font-size: 14px; width: 100%; max-width: 48%; display: inline-block; padding: 0 15px; line-height: 22px; }
+.list-services li:before { content: "\f0da"; font-family: "Font Awesome 5 Pro"; font-weight: 900; margin-right: 10px; color: #8b0f4b; margin-left: -15px; }
+.list-services li h5 { display: inline-block; line-height: 32px; }
+.list-services li h6 { display: inline-block; line-height: 24px; }
+.list-services li li { max-width: 100%; }
+.list-services.column-3 li { max-width: 32%; }
+.list-services.column-4 li { max-width: 24%; }
+
 .map-holder { padding: 0; height: 560px; width: 100%; }
 .map-holder iframe { border: 0; width: 100%; height: 100%; }
 
@@ -469,6 +481,14 @@ body.services .nav-pills li .nav-link { display: block; background: #F1F1F1; col
 body.services .nav-pills li .nav-link.active,
 body.services .nav-pills li .nav-link.active:focus,
 body.services .nav-pills li .nav-link.active:hover { color: #FFFFFF; cursor: default; background: #8b0f4b !important; border: 0; }
+
+/* */
+body.services .project-info-list { padding: 0; margin-bottom: 20px; display: flex; }
+body.services .project-info-list { clear: both; }
+body.services .project-info-list li { border-left: 1px solid #F1F1F1; width: 33.33%; float: left; display: flex; padding: 10px; }
+body.services .project-info-list li .icon-holder { margin-right: 10px; width: 24px; height: 24px; text-align: center; line-height: 24px; }
+body.services .project-info-list li .icon-holder i { font-size: 14px; color: #8b0f4b; }
+body.services .project-info-list li .text-holder p { margin: 0; font-size: 14px; }
 
 /* Animations */
 @keyframes beating {

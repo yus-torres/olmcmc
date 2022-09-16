@@ -66,3 +66,8 @@ $(document).on('ready', function() {
 		]
 	});
 });
+
+// Hash Remover Smooth Scroll
+$(window).on('hashchange', function(e){
+	history.replaceState ("", document.title, e.originalEvent.oldURL);
+});
