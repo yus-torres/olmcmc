@@ -490,6 +490,11 @@ body.services .project-info-list li .icon-holder { margin-right: 10px; width: 24
 body.services .project-info-list li .icon-holder i { font-size: 14px; color: #8b0f4b; }
 body.services .project-info-list li .text-holder p { margin: 0; font-size: 14px; }
 
+/* */
+.services .carousel-control { position: absolute; bottom: 60px; z-index: 10; width: 120px; }
+.services .carousel-control button { height: 60px; width: 60px; }
+.services .carousel-control button { background-color: #8b0f4b; color: #FFFFFF; }
+
 /* Animations */
 @keyframes beating {
 	0%		{ box-shadow: 0 0 0  5px rgba(184, 31 ,104, 0.2); }
